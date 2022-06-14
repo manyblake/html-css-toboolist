@@ -68,6 +68,10 @@ nav {
     list-style-type: none;
 }
 
+.secondary-list__item {
+    line-height: 26px;
+}
+
 .icon-circle {
     border-radius: 50%;
     border: 1px solid green;
@@ -82,4 +86,33 @@ nav {
 .icon-circle--red {
     color: red;
     border-color: red;
+}
+
+.secondary-list__label--editorial {
+    padding: 0 10px;
+    background-color: #45abea;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
+
+.secondary-list__label--goals {
+    background-color: #9c72e4;
+}
+
+.secondary-list__label--recruiting {
+    background-color: #64c0a9;
+}
+
+.secondary-list__label--mobile {
+    background-color: #f29e33;
+}
+
+.secondary-list__label--website {
+    background-color: #d863a1;
+}
+
+.secondary-list__label--sales {
+    background-color: #b0c926;
 }
