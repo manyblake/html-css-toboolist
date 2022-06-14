@@ -28,17 +28,16 @@ main {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #f6f8f9;
-}
-
-nav {
     background-color: white;
-    padding: 20px 0 20px 100px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
 }
 
-.nav__button {
+#actions {
+    padding: 16px 100px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.actions__button {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -60,8 +59,14 @@ nav {
 }
 
 .main-list {
-    list-style-type: "▼";
-    padding-left: 20px;
+    padding: 16px 100px;
+    list-style-type: "⏷";
+    list-style-position: inside;
+}
+
+li h2 {
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 .secondary-list {
@@ -70,6 +75,7 @@ nav {
 
 .secondary-list__item {
     line-height: 26px;
+    margin-bottom: 16px;
 }
 
 .icon-circle {
@@ -81,6 +87,7 @@ nav {
     text-align: center;
     line-height: 20px;
     color: green;
+    font-size: 12px;
 }
 
 .icon-circle--red {
